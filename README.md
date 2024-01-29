@@ -7,7 +7,7 @@
 ./install.sh
 change SecRuleEngine to On /etc/modsecurity/modsecurity.conf
 
-change /etc/apache2/security.conf
+change /etc/apache2/mods-enabled/modsecurity.conf
 
 Include /etc/apache2/modsec/coreruleset-3.3.4/crs-setup.conf
 
