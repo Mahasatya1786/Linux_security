@@ -1,6 +1,6 @@
 #!/bin/bash
 apt update
-apt install snort apache2 php libapache2-modsecurity libxml2 libxml2-dev libxml2-utils libaprutil1 policycoreutils selinux-utils selinux-basics libaprutil1-dev libapache2-mod-evasive
+apt install snort apache2 php libapache2-mod-security2 libxml2 libxml2-dev libxml2-utils libaprutil1 policycoreutils selinux-utils selinux-basics libaprutil1-dev libapache2-mod-evasive
 selinux-activate
 sudo mkdir /var/log/mod_evasive
 mv /etc/modsecurity/modsecurity.conf-recommended /etc/modsecurity/modsecurity.conf
