@@ -3,6 +3,8 @@
  run first "sed -i -e 's/\r$//' install.sh"
 
  chmod +x  install.sh
+set apache patching header guide
+https://webdock.io/en/docs/how-guides/security-guides/how-to-configure-security-headers-in-nginx-and-apache
 
 ./install.sh
 change SecRuleEngine to On /etc/modsecurity/modsecurity.conf
